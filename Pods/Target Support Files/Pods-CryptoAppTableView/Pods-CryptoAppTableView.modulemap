@@ -1,0 +1,6 @@
+framework module Pods_CryptoAppTableView {
+  umbrella header "Pods-CryptoAppTableView-umbrella.h"
+
+  export *
+  module * { export * }
+}
