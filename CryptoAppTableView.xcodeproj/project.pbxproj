@@ -7,17 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		232AE7ED27CCFD7500F34890 /* CriptaServerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 232AE7EC27CCFD7500F34890 /* CriptaServerModel.swift */; };
+		232AE7EF27CCFD9300F34890 /* CriptaClientModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 232AE7EE27CCFD9300F34890 /* CriptaClientModel.swift */; };
+		232AE7F127CCFDEE00F34890 /* ModelConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 232AE7F027CCFDEE00F34890 /* ModelConverter.swift */; };
 		236A601D27BDA27B00D20944 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236A601C27BDA27B00D20944 /* AppDelegate.swift */; };
 		236A601F27BDA27B00D20944 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236A601E27BDA27B00D20944 /* SceneDelegate.swift */; };
 		236A602127BDA27B00D20944 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236A602027BDA27B00D20944 /* ViewController.swift */; };
 		236A602427BDA27B00D20944 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 236A602227BDA27B00D20944 /* Main.storyboard */; };
 		236A602627BDA27D00D20944 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 236A602527BDA27D00D20944 /* Assets.xcassets */; };
 		236A602927BDA27D00D20944 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 236A602727BDA27D00D20944 /* LaunchScreen.storyboard */; };
+		236A603127BE59A100D20944 /* AppColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236A603027BE59A100D20944 /* AppColor.swift */; };
+		236A603527BE5AF400D20944 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236A603327BE5AF400D20944 /* TableViewCell.swift */; };
+		236A603627BE5AF400D20944 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 236A603427BE5AF400D20944 /* TableViewCell.xib */; };
+		236A603827BE78E600D20944 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236A603727BE78E600D20944 /* APIManager.swift */; };
 		8DDEF80C391D41F70040CB8E /* Pods_CryptoAppTableView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0546071BBB59229FCC3BFD8C /* Pods_CryptoAppTableView.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0546071BBB59229FCC3BFD8C /* Pods_CryptoAppTableView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CryptoAppTableView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		232AE7EC27CCFD7500F34890 /* CriptaServerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CriptaServerModel.swift; sourceTree = "<group>"; };
+		232AE7EE27CCFD9300F34890 /* CriptaClientModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CriptaClientModel.swift; sourceTree = "<group>"; };
+		232AE7F027CCFDEE00F34890 /* ModelConverter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelConverter.swift; sourceTree = "<group>"; };
 		236A601927BDA27B00D20944 /* CryptoAppTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoAppTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		236A601C27BDA27B00D20944 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		236A601E27BDA27B00D20944 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +36,10 @@
 		236A602527BDA27D00D20944 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		236A602827BDA27D00D20944 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		236A602A27BDA27D00D20944 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		236A603027BE59A100D20944 /* AppColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppColor.swift; sourceTree = "<group>"; };
+		236A603327BE5AF400D20944 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		236A603427BE5AF400D20944 /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		236A603727BE78E600D20944 /* APIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
 		5E0415A42D4EAACEDCE133CC /* Pods-CryptoAppTableView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CryptoAppTableView.release.xcconfig"; path = "Target Support Files/Pods-CryptoAppTableView/Pods-CryptoAppTableView.release.xcconfig"; sourceTree = "<group>"; };
 		95426CA04A808E41FAF2DE5A /* Pods-CryptoAppTableView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CryptoAppTableView.debug.xcconfig"; path = "Target Support Files/Pods-CryptoAppTableView/Pods-CryptoAppTableView.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -42,6 +56,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		23579F5327CE69AB0029F543 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				236A603727BE78E600D20944 /* APIManager.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
 		236A601027BDA27B00D20944 = {
 			isa = PBXGroup;
 			children = (
@@ -63,15 +85,38 @@
 		236A601B27BDA27B00D20944 /* CryptoAppTableView */ = {
 			isa = PBXGroup;
 			children = (
+				236A603027BE59A100D20944 /* AppColor.swift */,
+				23579F5327CE69AB0029F543 /* API */,
+				236A603927BE7CE700D20944 /* Models */,
 				236A601C27BDA27B00D20944 /* AppDelegate.swift */,
 				236A601E27BDA27B00D20944 /* SceneDelegate.swift */,
 				236A602027BDA27B00D20944 /* ViewController.swift */,
+				236A603227BE5ABF00D20944 /* TableViewCell */,
 				236A602227BDA27B00D20944 /* Main.storyboard */,
 				236A602527BDA27D00D20944 /* Assets.xcassets */,
 				236A602727BDA27D00D20944 /* LaunchScreen.storyboard */,
 				236A602A27BDA27D00D20944 /* Info.plist */,
 			);
 			path = CryptoAppTableView;
+			sourceTree = "<group>";
+		};
+		236A603227BE5ABF00D20944 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				236A603327BE5AF400D20944 /* TableViewCell.swift */,
+				236A603427BE5AF400D20944 /* TableViewCell.xib */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+		236A603927BE7CE700D20944 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				232AE7EC27CCFD7500F34890 /* CriptaServerModel.swift */,
+				232AE7EE27CCFD9300F34890 /* CriptaClientModel.swift */,
+				232AE7F027CCFDEE00F34890 /* ModelConverter.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		6B382C107A9E43DCACDC788E /* Frameworks */ = {
@@ -88,7 +133,6 @@
 				95426CA04A808E41FAF2DE5A /* Pods-CryptoAppTableView.debug.xcconfig */,
 				5E0415A42D4EAACEDCE133CC /* Pods-CryptoAppTableView.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -153,6 +197,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				236A602927BDA27D00D20944 /* LaunchScreen.storyboard in Resources */,
+				236A603627BE5AF400D20944 /* TableViewCell.xib in Resources */,
 				236A602627BDA27D00D20944 /* Assets.xcassets in Resources */,
 				236A602427BDA27B00D20944 /* Main.storyboard in Resources */,
 			);
@@ -207,8 +252,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				236A603827BE78E600D20944 /* APIManager.swift in Sources */,
+				232AE7F127CCFDEE00F34890 /* ModelConverter.swift in Sources */,
+				236A603527BE5AF400D20944 /* TableViewCell.swift in Sources */,
 				236A602127BDA27B00D20944 /* ViewController.swift in Sources */,
+				236A603127BE59A100D20944 /* AppColor.swift in Sources */,
+				232AE7ED27CCFD7500F34890 /* CriptaServerModel.swift in Sources */,
 				236A601D27BDA27B00D20944 /* AppDelegate.swift in Sources */,
+				232AE7EF27CCFD9300F34890 /* CriptaClientModel.swift in Sources */,
 				236A601F27BDA27B00D20944 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

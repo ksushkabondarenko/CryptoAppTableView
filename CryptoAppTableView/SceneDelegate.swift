@@ -1,10 +1,3 @@
-//
-//  SceneDelegate.swift
-//  CryptoAppTableView
-//
-//  Created by Ксения Бондаренко on 17.02.22.
-//
-
 import UIKit
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
