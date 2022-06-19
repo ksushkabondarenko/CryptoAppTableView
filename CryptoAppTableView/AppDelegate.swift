@@ -1,10 +1,3 @@
-//
-//  AppDelegate.swift
-//  CryptoAppTableView
-//
-//  Created by Ксения Бондаренко on 17.02.22.
-//
-
 import UIKit
 
 @main
